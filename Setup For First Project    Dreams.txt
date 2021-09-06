@@ -1,0 +1,23 @@
+1.Fully responsive using bootstrap classes for navbar,cards,carousol and form In progress
+2.Show inputs via vuejs Done
+3.routing with vue in progress
+4.Dropdown menu using Vue Done
+5.repeated cards using Vue Done
+6.Vuex if needed(will be contained in project however) not needed
+7.Paging via Vue Done
+8.collapse using bootstrap Done
+
+pages:
+index done
+Courses done
+News done
+Contact done
+faq done
+course detail
+blog detail
+
+
+
+bogs:
+
+collapse toggler icon at index

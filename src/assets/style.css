@@ -1,0 +1,272 @@
+/*---default---*/
+body{
+  height: 5000px;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  list-style-type: none;
+
+
+}
+*:hover{
+  text-decoration: none!important;
+
+}
+
+
+.yellow-color{
+  color: #f3bd00;
+}
+.Blue-back{
+ background-color:  #0c2b4b;
+}
+.yellow-back{
+  background-color: #f3bd00;
+}
+
+/*navbar brand*/
+.Brand-Css{
+  padding: 15px;
+}
+
+.Background-Css{
+  background-color: #f3bd00;
+  height: 100px;
+  margin: -8px 0px -8px -16px;
+  padding-left: 165px;
+}
+/*---Navbar Nav---*/
+.Nav-Link-Css{
+
+ font-size: 17px;
+}
+.Nav-Link-Css:hover{
+  border-bottom: solid 1px #f3bd00;
+  transition: .5s;
+  cursor: pointer;
+
+}
+
+/*---DropDownMenu---*/
+.DropDownItem{
+  margin: 15px;
+}
+.DropDownMenu{
+  background-color: #f3bd00;
+  position: absolute;
+  margin: 0px 0px 0px 1px;
+}
+.DropDownLink{
+  color: white;
+}
+.DropDownLink:hover{
+  border-bottom: solid 2px blue;
+  color: #e3e3e3;
+  transition: .5s;
+
+}
+
+.NavBar{
+  justify-content: center;
+
+}
+
+/*---NavbarIcons---*/
+
+.Nav-Icon{
+  color: white;
+  font-size: 15px;
+}
+
+.Nav-Icon:hover{
+  transition: .5s
+;
+}
+
+.Nav-Search{
+  border-right: solid 1px white;
+  padding-right: 10px;
+}
+
+.Nav-Btn:hover{
+  background-color: #ffec00;
+}
+@media screen and (max-width: 991px){
+
+  .Nav-Icon{
+    color: white;
+    font-size: 15px;
+    margin: 10px;
+  }
+
+}
+
+/*---Index Heading ---*/
+
+.Index-Heading{
+  background: url("Index-First-Pic.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;}
+
+.Heading-Btn{
+  margin: 10px;
+}
+
+.Heading-Margin{
+  margin-top: 15%;
+}
+
+/*--- Features---*/
+
+.Feature-btn:hover{
+  background-color: #0c355c;
+  transition: .5s ease-in;
+}
+
+.Custom{
+  width: 325px;
+  height: 180px;
+  margin-top: 15px;
+}
+.CogIcon{
+  color:  #f3bd00;
+  margin: 30px;
+  font-size: 65px;
+  margin-left: 130px;
+}
+
+
+
+.CircleIcon{
+  position: absolute;
+  color: #f3bd00;
+  font-size: 45px;
+  margin: 26% 0px 0px 44%;
+}
+
+.CircleIcon:hover{
+  cursor: pointer;
+  color:#0c355c;
+  transition: .5s ease-in;
+}
+/*--- Form ---*/
+
+.Form-Control-Css{
+  height: 52px!important;
+}
+
+/*--- Pricing ---*/
+
+.Index-Pricing{
+  background: url("Index-Third-Pic.jpg") no-repeat center ;
+  background-size: cover;
+  height: 100vh;
+}
+.Card-css{
+  background: rgba(12, 43, 75, 0.3);
+}
+.List-Group-Item-Css{
+  background: transparent;
+  border: none;
+  text-align: center;
+  color: white;
+}
+
+.Margin-Btn{
+  margin: 0px 0px 0px 98px;
+}
+
+.Card-css:hover{
+  background-color: #0c355c;
+  cursor: pointer;
+transition: .3s ease-in;
+}
+.Margin-Btn:hover{
+  background-color: #f3bd00;
+  transition: .5s ease-in;
+}
+/*--- Instructors ---*/
+
+.Instructors-Card{
+  position: relative;
+float: left!important;
+  padding: 14px 10px 10px 33px;
+}
+
+.Instructor-Icon{
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.Icon-Wrapper{
+  margin-left: 11px;
+}
+
+/*--- Instructors ---*/
+
+.Footer-List-Css{
+  background-color: transparent;
+}
+/*--- Courses Page ---*/
+.Courses-Card{
+  padding: 25px;
+}
+
+.Courses-Card-Btn{
+  color: black;
+  border-bottom: solid 1px  #f3bd00;
+}
+/*--- News Page ---*/
+.Pagination{
+
+  padding: 45px;
+}
+
+.PageItem{
+  padding: 10px 25px 10px 25px;
+  color: black;
+  background-color: #abc0d0;
+  margin: 0px 5px 0px 0px;
+  cursor: pointer;
+}
+.PageItem:hover{
+  background-color: #0c355c;
+  transition: .2s ease-in;
+;
+}
+/*--- Contact Page ---*/
+
+.Contact-Icon{
+color: #f3bd00;
+  background-color: #0c355c;
+  padding: 20px;
+  border-radius: 35px;
+}
+
+.Info-Wrapper{
+  margin:10px
+}
+/*--- Faq Page ---*/
+.Collapse-Btn-Css::before{
+  content: '-';
+  color: yellow;
+  margin-right: 15px;
+
+}
+.Collapse-Btn-Css{
+  color: black;
+}
+
+.Collapse-Btn-Css:hover{
+  color: #0c355c;
+  transition: .2s ease-in;
+}
+.Faq-Btn-Css{
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+}
+
